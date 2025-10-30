@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import time
 
+
 np.random.seed(20)
 class Detector:
     def __init__(self, videoPath, configPath, modelPath, classesPath):
